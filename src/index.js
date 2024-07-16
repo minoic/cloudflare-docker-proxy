@@ -6,15 +6,15 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "docker.proxy.minoic.top": "https://registry-1.docker.io",
-  "quay.proxy.minoic.top": "https://quay.io",
-  "gcr.proxy.minoic.top": "https://gcr.io",
-  "k8s-gcr.proxy.minoic.top": "https://k8s.gcr.io",
-  "k8s.proxy.minoic.top": "https://registry.k8s.io",
-  "ghcr.proxy.minoic.top": "https://ghcr.io",
-  "cloudsmith.proxy.minoic.top": "https://docker.cloudsmith.io",
+  "docker.minoic.top": dockerHub,
+  "quay.minoic.top": "https://quay.io",
+  "gcr.minoic.top": "https://gcr.io",
+  "k8s-gcr.minoic.top": "https://k8s.gcr.io",
+  "k8s.minoic.top": "https://registry.k8s.io",
+  "ghcr.minoic.top": "https://ghcr.io",
+  "cloudsmith.minoic.top": "https://docker.cloudsmith.io",
   // staging
-  "docker-staging.proxy.minoic.top": dockerHub,
+  "docker-staging.minoic.top": dockerHub,
 };
 
 
